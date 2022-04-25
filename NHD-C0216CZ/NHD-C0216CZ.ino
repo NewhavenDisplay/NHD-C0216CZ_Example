@@ -8,7 +8,7 @@
  * Operationg Voltage: 3.3V
  * Logic Voltage: 3.3V
  * 
- * Program Loop:
+ * Program Flow:
  * 1. Initialize display.
  * 2. Print "NEWHAVEN Display 2x16 COG Module" to screen.
  * 3. Write custom characters to CGRAM.
