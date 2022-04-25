@@ -2,7 +2,19 @@
 Program for writing to Newhaven Display's Character Chip-On-Glass **NHD-C0216CZ** Series with ST7032 controller.
 This code is written for the Arduino Uno. 
 
-Purchase a sample from our Product Pages linked below!
+Target: `Arduino UNO`\
+Language: `Arduino Sketch`\
+Interface: `SPI`\
+Display Voltage: `3.3V`\
+Logic Voltage: `3.3V`
+
+# Program Flow
+1. Initialize display.
+2. Print `NEWHAVEN Display 2x16 COG Module` to screen.
+3. Write custom characters to CGRAM.
+4. Print custom characters to screen.
+
+# Purchase a sample from our Product Pages linked below!
 
 -----> [**NHD-C0216CZ-FSW-FBW-3V3**](https://www.newhavendisplay.com/nhdc0216czfswfbw3v3-p-1828.html)   |   [**Datasheet**](https://www.newhavendisplay.com/specs/NHD-C0216CZ-FSW-FBW-3V3.pdf)
 
