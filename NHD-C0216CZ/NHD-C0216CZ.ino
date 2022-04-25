@@ -1,8 +1,19 @@
 /*****************************************************************************
  *
  * Program for writing to Newhaven Display's 2x16 Character COG with the ST7032 Controller.
- * This code is written for the Arduino Uno R3 using Serial Interface
- *
+ * This code is written for the Arduino Uno R3 using Serial Interface.
+ * 
+ * Target: Arduino Uno R3
+ * Interface: SPI
+ * Operationg Voltage: 3.3V
+ * Logic Voltage: 3.3V
+ * 
+ * Program Loop:
+ * 1. Initialize display.
+ * 2. Print "NEWHAVEN Display 2x16 COG Module" to screen.
+ * 3. Write custom characters to CGRAM.
+ * 4. Print custom characters to screen.
+ * 
  * Newhaven Display invests time and resources providing this open source code,
  * Please support Newhaven Display by purchasing products from Newhaven Display!
  *
